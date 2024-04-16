@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mixologist</string>
+    <string name="image_description">Cocktail Image</string>
+    <string name="main_activity_text_view">Choose a spirit...</string>
+    <string name="radio_button_one">Vodka</string>
+    <string name="radio_button_two">Gin</string>
+    <string name="radio_button_three">Whiskey</string>
+    <string name="radio_button_four">Rum</string>
+    <string name="radio_button_five">Tequila</string>
+    <string name="select_button">get my cocktails!</string>
+</resources>

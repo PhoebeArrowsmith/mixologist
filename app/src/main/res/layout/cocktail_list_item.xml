@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Layout of each list item in the recycler view-->
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp">
+
+<!--Layout of the cocktail image-->
+    <ImageView
+        android:id="@+id/item_image"
+        android:layout_width="54dp"
+        android:layout_height="54dp"
+        android:src="@drawable/drink"
+        android:layout_gravity="end"
+        android:contentDescription="@string/image_description" />
+
+<!--Layout of the cocktail name-->
+    <TextView
+        android:id="@+id/cocktail_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+</FrameLayout>
